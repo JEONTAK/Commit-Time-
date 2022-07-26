@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: JEONTAK/Commit-Time-@master
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GH_TOKEN: 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
+          GIST_ID: 1c551b1f449ddac4ff3acd42a74817cb
           LOCALE: ko-KR
